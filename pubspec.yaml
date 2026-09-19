@@ -1,18 +1,24 @@
 name: chordflow_piano
-description: ChordFlow Piano - beautiful chords and chord progressions.
-publish_to: "none"
+description: A beautiful chord progression and piano app.
+publish_to: 'none'
 
-version: 1.0.0+2
+version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+
   audioplayers: ^6.5.0
   path_provider: ^2.1.5
-  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
